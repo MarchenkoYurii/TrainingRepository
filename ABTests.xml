@@ -1,25 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
-<mainroot>
-<root>
-	<ABTests>
-	</ABTests>rghshstrrhhsths
-</root>
-<root platform="ios">
-	<ABTests>
-		<abtest id="ab_hs_christmas_lottery"
- 			status="1"
- 			rules='
- 				{
- 				"cond":[{"m3lvl":{"ge":9999}},{"cheater":false},["NOT", {"in_ab":["ab_hs_less_colors_main"]}]],
- 				"stay_cond":{"m3lvl":{"ge":1}},
- 				"groups":
- 					{
- 					"control": {"weight": 50, "params": {}},
- 				   	"test": {"weight": 50, "params": {"AB_Lottery" : "test"}}
- 					}
- 				}'
- 			origin="xml"
- 		/>
+
 		<abtest id="ab_hs_cascade_snow"
  			status="1"
  			rules='
