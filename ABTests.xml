@@ -2,33 +2,6 @@
 		<abtest id="ab_hs_cascade_snow"
  			status="1"
  			rules='
- 				{
- 				"cond":[{"m3lvl":{"ge":17}},{"cheater":false},["NOT", {"in_ab":["ab_hs_less_colors_main"]}]],
- 				"stay_cond":{"m3lvl":{"ge":1}},
- 				"groups":
- 					{
- 					"control": {"weight": 25, "params": {}},
- 				   	"test": {"weight": 25, "params": {"AB_Cascade" : "test"}},
-				    "no_rm": {"weight": 25, "params": {"AB_Cascade" : "no_rm"}},
-					"chest": {"weight": 25, "params": {"AB_Cascade" : "chest"}}
- 					}
- 				}'
- 			origin="xml"
- 		/>
-		<abtest id="ab_hs_less_colors_main"/>
-		<abtest id="abDiffAmpl_holdout"/>
-		<abtest id="betaInvite411"/>
-		<abtest id="ab_hs_cascade_boarding"/>
-		<abtest id="betaInvite410"/>
-		<abtest id="ab_hs_cascade_halloween"/>
-		<abtest id="betaInvite401"/>
-		<abtest id="betaInvite400"/>
-		<abtest id="abDiffAmpl_old"/>
-		<abtest id="abIndStarsTimer"/>
-		<abtest id="abPlayable2"/>
-		<abtest id="betaInvite391"/>
-		<abtest id="betaInvite390"/>
-		<abtest id="abCascade"/>
 		<abtest id="abPNBLightning"/>
 		<abtest id="betaInvite381"/>
 		<abtest id="abLvlBonuses_cal_56"/>
