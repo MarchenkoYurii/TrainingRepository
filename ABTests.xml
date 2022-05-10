@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version='1.0' encoding='utf-8'?>
 <mainroot>
 <root>
@@ -76,6 +77,9 @@
 		<abtest id="abColorsReduce"/>
 		<abtest id="abPNB_cal_1"/>
 		<abtest id="abPNB_cal" />	
+=======
+
+>>>>>>> комміт для патча
 		<abtest id="abControlAA" />
 		<abtest id="ab_level_rewards" />	
 		<abtest id="ws_cross_promo" />
@@ -103,15 +107,6 @@
 		<abtest id="abFullCrossPromo120" />
 		<abtest id="abDailyBonusStart" />
 		<abtest id="abHardLevels" />
-		<abtest id="abCrossPromo110" />
-	</ABTests>
-</root>
-<root platform="android_gp">
-	<ABTests>
-		<abtest id="ab_hs_peak_complex_main_old"
- 			status="1"
- 			rules='
- 				{
  				"cond":[{"m3lvl":{"ge":9999, "le":1000}},{"cheater":false}],
  				"stay_cond":{"m3lvl":{"ge":1}},
  				"groups":
