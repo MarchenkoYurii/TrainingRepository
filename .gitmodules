@@ -1,3 +1,6 @@
 [submodule "SubmoduleRepository"]
 	path = SubmoduleRepository
 	url = git@github.com:MarchenkoYurii/SubmoduleRepository.git
+[submodule "SubmoduleTraining"]
+	path = SubmoduleTraining
+	url = git@github.com:MarchenkoYurii/SubmoduleTraining.git
